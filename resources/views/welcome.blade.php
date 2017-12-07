@@ -7,7 +7,7 @@
         <div class="col-md-4">
           <div class="thumbnail">
             <div class="caption">{{$post->title}}</div>
-            <p><a href="/posts/single/{{$post->slug}}" class="btn btn-primary">Read Post</a></p>
+            <p><a href="/posts/{{$post->slug}}" class="btn btn-primary">Read Post</a></p>
           </div>
         </div>
       @endforeach
